@@ -72,7 +72,7 @@ public class DnDsLoggerParser extends AbstractXMLObjectParser {
 
         // Use AttributeRules for options here
 
-        boolean useSmoothing = xo.getAttribute(USE_SMOOTHING, true);
+        boolean useSmoothing = xo.getAttribute(USE_SMOOTHING, false);
         boolean useDnMinusDs = xo.getAttribute(USE_DNMINUSDS, false);
         boolean conditionalCounts = xo.getAttribute(COUNTS, false);
         boolean synonymous = xo.getAttribute(SYNONYMOUS, false);
